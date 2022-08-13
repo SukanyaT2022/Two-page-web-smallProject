@@ -1,0 +1,74 @@
+.container{
+    margin: 20px;
+   
+  
+}
+.navBar{
+text-align: center;
+width: 100%;
+height: auto;
+border-bottom:2px solid darkgray;
+padding: 30px 0px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.navBar a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.bigHero{
+    width: 100%;
+    height: auto;/*hight auto make page responsive instead of put value*/
+    background:linear-gradient(orange,yellow);
+    padding: 30px 0px;
+   
+
+display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+  
+
+}
+.bigHero img{
+    width: 200px;
+    margin-top: -30px;
+  
+
+}
+.bigHero p{
+    padding: 0px 100px;
+}
+
+/*section1*/
+.section1{
+    width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0px;
+  
+
+}
+.section1 button{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+footer{
+    background-color:lightpink;
+}
+.socialMedia{
+    font-size: 30px;
+  
+
+}
+.fa-brands{
+    padding: 20px;
+}
