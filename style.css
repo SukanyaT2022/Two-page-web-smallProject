@@ -61,14 +61,30 @@ display: flex;
     border-radius: 20px;
     font-size: 15px;
 }
-footer{
-    background-color:lightpink;
-}
 .socialMedia{
-    font-size: 30px;
-  
+    margin-left:40px;
+}
 
-}
+/*social icone*/
 .fa-brands{
-    padding: 20px;
+    padding: 15px;
+    color: black;
+    font-size: 25px;
 }
+
+.belowSocialmedia{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left:40px;
+
+ 
+}
+/* below--we remove underline of a tag--only for a tag*/
+.belowSocialmedia a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+padding: 10px;
+}
+

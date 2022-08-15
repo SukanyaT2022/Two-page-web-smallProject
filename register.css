@@ -1,0 +1,32 @@
+form{
+    width: 35%;/*percentage and height auto is resonsive*/
+    height: auto;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    background:linear-gradient(rgb(206, 156, 65),rgb(220, 220, 29));
+    border-radius: 30px;
+    margin-top: 50px;
+}
+/*give space bet lable and input box*/
+label{
+    margin: 30px 30px;
+   
+    
+}
+
+.spaceForEmail{
+    margin-left: 30px;
+}
+
+.spaceForPhone{
+    margin-right: 22px;
+}
+
+.spaceBottomforAll{
+
+margin: 10px 0px;
