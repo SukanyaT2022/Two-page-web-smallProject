@@ -2,10 +2,7 @@ form{
     width: 35%;/*percentage and height auto is resonsive*/
     height: auto;
     border: 2px solid green;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    
     padding: 20px;
     margin: auto;
     background:linear-gradient(rgb(206, 156, 65),rgb(220, 220, 29));
@@ -13,20 +10,65 @@ form{
     margin-top: 50px;
 }
 /*give space bet lable and input box*/
-label{
-    margin: 30px 30px;
-   
+
+
+#submit{
+
+    padding: 10px 30px;
+    border-radius: 30px;
+    display: block;
+    margin: 20px auto;
+}
+
+/*.inputBox is bigbox that hold all small input boes*/
+.inputBox{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  
+  
+}
+/*input with no . is for small input boxes*/
+input{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 5px;
+
     
+  
+}
+/*.lableBox is big box*/
+.lableBox{
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+ 
+
+  
+  
 }
 
-.spaceForEmail{
-    margin-left: 30px;
+/*.lableBox lable target small lable boxes*/
+.lableBox label{
+    display:block;
+    margin-top: 10px;
+    padding: 5px 5px;
+
 }
 
-.spaceForPhone{
-    margin-right: 22px;
+.register{
+  
+    text-align: center;
 }
-
-.spaceBottomforAll{
-
-margin: 10px 0px;
+.mainBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+   
+}
